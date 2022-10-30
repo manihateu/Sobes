@@ -4,6 +4,8 @@ import './index.css'
 import Home from './components/screens/Home/Home'
 import Layout from './components/layout/Layout'
 
+let count = 0;
+
 ReactDOM.render(
 	<React.StrictMode>
 		<Layout>
